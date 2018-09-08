@@ -19,6 +19,7 @@ async function init() {
   const Flow = await makeFlowClient({
     security,
     flavour: process.env.B2B_FLAVOUR,
+    XSD_PATH: process.env.B2B_XSD_PATH || '/tmp/b2b-xsd',
   });
   const [elapsedS, elapsedNs] = process.hrtime(start);
 
