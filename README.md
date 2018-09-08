@@ -10,7 +10,7 @@ $ git clone git@github.com:DGAC/nmb2b-client-js-example.git b2b-client-example
 
 # Install dependencies
 $ cd b2b-client-example
-$ yarn Install
+$ yarn install
 
 # Configure your B2B certificate via .env file
 $ rm .env
