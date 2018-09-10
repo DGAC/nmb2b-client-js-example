@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@dgac/nmb2b.client@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@dgac/nmb2b.client/-/nmb2b.client-0.0.1.tgz#bd9c7e403de104ed04de964b28b4917fb7d03d71"
+"@dgac/nmb2b-client@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@dgac/nmb2b-client/-/nmb2b-client-0.1.0.tgz#48ab93814a1d837ea083d0500f90d05f41f7cffd"
   dependencies:
     debug "^3.1.0"
     invariant "^2.2.4"
