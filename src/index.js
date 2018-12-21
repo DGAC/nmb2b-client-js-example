@@ -1,6 +1,6 @@
 require('dotenv/config');
-const { makeFlowClient } = require('@dgac/nmb2b.client');
-const { fromEnv } = require('@dgac/nmb2b.client/dist/security');
+const { makeFlowClient } = require('@dgac/nmb2b-client');
+const { fromEnv } = require('@dgac/nmb2b-client/dist/security');
 const moment = require('moment');
 const Table = require('cli-table');
 const security = fromEnv();
