@@ -2,20 +2,26 @@
 # yarn lockfile v1
 
 
-"@dgac/nmb2b-client@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@dgac/nmb2b-client/-/nmb2b-client-0.2.2.tgz#0a12bfe14563b77d2ac43efed339b6de0955ccf7"
-  integrity sha512-8xOyErRbAD5Qh+rJa+8DPhFWhtORzaFQOprj1FbELBrvHjZdrBn9el0ns9jaKOKErFLw2TW10kpLtjZlf+NrCA==
+"@dgac/nmb2b-client@^0.3.6":
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@dgac/nmb2b-client/-/nmb2b-client-0.3.6.tgz#06673df0539f46766f278785260912d164489142"
+  integrity sha512-I74GSsOBc/LdrBUyN0HGvTL1lPgcuiukxLS7JXceqYuKV6DIL4YAWNGCtYOks4lzzW69u4dWiV/rRlTj4RalMg==
   dependencies:
+    "@types/bluebird" "^3.5.27"
     debug "^3.0.0 || ^4.0.0"
     invariant "^2.2.4"
     mkdirp "^0.5.1"
     moment "^2.22.2"
-    proper-lockfile "^3.2.0"
-    ramda "^0.25.0"
+    proper-lockfile "^4.1.1"
+    ramda "^0.26.1"
     request "^2.88.0"
-    soap "^0.25.0"
+    soap "0.26.0"
     tar "^4.4.6"
+
+"@types/bluebird@^3.5.27":
+  version "3.5.30"
+  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.30.tgz#ee034a0eeea8b84ed868b1aa60d690b08a6cfbc5"
+  integrity sha512-8LhzvcjIoqoi1TghEkRMkbbmM+jhHnBokPGkJWjclMK+Ks0MxEBow3/p2/iFTZ+OIbJHQDSfpgdZEb+af3gfVw==
 
 ajv@^5.3.0:
   version "5.5.2"
@@ -410,10 +416,10 @@ process-nextick-args@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
 
-proper-lockfile@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/proper-lockfile/-/proper-lockfile-3.2.0.tgz#89ca420eea1d55d38ca552578851460067bcda66"
-  integrity sha512-iMghHHXv2bsxl6NchhEaFck8tvX3F9cknEEh1SUpguUOBjN7PAAW9BLzmbc1g/mCD1gY3EE2EABBHPJfFdHFmA==
+proper-lockfile@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/proper-lockfile/-/proper-lockfile-4.1.1.tgz#284cf9db9e30a90e647afad69deb7cb06881262c"
+  integrity sha512-1w6rxXodisVpn7QYvLk706mzprPTAPCYAqxMvctmPN3ekuRk/kuGkGc82pangZiAt4R3lwSuUzheTTn0/Yb7Zg==
   dependencies:
     graceful-fs "^4.1.11"
     retry "^0.12.0"
@@ -431,9 +437,10 @@ qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
 
-ramda@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
+ramda@^0.26.1:
+  version "0.26.1"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
+  integrity sha512-hLWjpy7EnsDBb0p+Z3B7rPi3GDeRG5ZtiI33kJhTt+ORCd38AbAIjB/9zRIUoeTbE/AVX5ZkU7m6bznsvrf8eQ==
 
 range-parser@~1.2.0:
   version "1.2.0"
@@ -529,9 +536,10 @@ signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-soap@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/soap/-/soap-0.25.0.tgz#deda92e1454e77ac942033cb7ca18b88f57b0abf"
+soap@0.26.0:
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/soap/-/soap-0.26.0.tgz#fcb89b9e05855fa7d5f46f6d56f334cdeccbc487"
+  integrity sha512-tTS3lnGl6lfjQQuJgNnWOgC0Xa6qYQSwl2G7DX3kCdGmek/FTNmHDM/7icKP1KBMFfCrKpAWEbZiGefa92SCYw==
   dependencies:
     bluebird "^3.5.0"
     concat-stream "^1.5.1"
