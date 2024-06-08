@@ -1,16 +1,21 @@
 {
   "name": "@dgac/nmb2b-client-example",
   "version": "0.0.1",
-  "main": "src/index.js",
+  "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "tsx src/index.ts"
   },
   "dependencies": {
-    "@dgac/nmb2b-client": "^0.5.2",
-    "cli-table": "^0.3.11",
-    "dotenv": "^16.0.0",
-    "lodash": "^4.17.21",
-    "moment": "^2.29.4"
-  }
+    "@dgac/nmb2b-client": "link:../b2b.client",
+    "cli-table3": "^0.6.5",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@total-typescript/tsconfig": "^1.0.4",
+    "tsx": "^4.13.3",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.2.0+sha256.94fab213df221c55b6956b14a2264c21c6203cca9f0b3b95ff2fe9b84b120390"
 }
