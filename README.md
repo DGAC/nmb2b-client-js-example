@@ -10,7 +10,7 @@ $ git clone git@github.com:DGAC/nmb2b-client-js-example.git b2b-client-example
 
 # Install dependencies
 $ cd b2b-client-example
-$ yarn install
+$ pnpm install
 
 # Configure your B2B certificate via .env file
 $ rm .env
@@ -20,5 +20,5 @@ $ echo 'B2B_CERT=/path/to/your/b2b/certificate.p12' >> .env
 $ echo 'B2B_CERT_PASSPHRASE=MyPassPhrase' >> .env
 
 # Start the example
-$ yarn start
+$ pnpm start
 ```
