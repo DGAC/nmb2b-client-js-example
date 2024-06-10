@@ -4,7 +4,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "tsx src/index.ts"
+    "regulations": "tsx src/regulations.ts"
   },
   "dependencies": {
     "@dgac/nmb2b-client": "link:../b2b.client",

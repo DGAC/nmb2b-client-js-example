@@ -20,5 +20,5 @@ $ echo 'B2B_CERT=/path/to/your/b2b/certificate.p12' >> .env
 $ echo 'B2B_CERT_PASSPHRASE=MyPassPhrase' >> .env
 
 # Start the example
-$ pnpm start
+$ pnpm regulations
 ```

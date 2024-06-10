@@ -28,8 +28,8 @@ async function main() {
 
   console.log(`Initialized SOAP client in ${(duration / 1e9).toFixed(3)}s`);
 
-  const startTime = sub(new Date(), { hours: 10 });
-  const endTime = add(new Date(), { hours: 10 });
+  const startTime = new Date() ?? sub(new Date(), { hours: 10 });
+  const endTime = add(new Date(), { minutes: 1 });
 
   const res = await Flow.queryRegulations({
     dataset: { type: 'OPERATIONAL' },
